@@ -9,11 +9,11 @@
 namespace Phlexible\Bundle\MessageBundle\Exception;
 
 /**
- * Invalid argument exception
+ * Exception interface for message bundle
  *
  * @author Stephan Wentz <sw@brainbits.net>
  */
-class InvalidArgumentException extends \InvalidArgumentException implements ExceptionInterface
+interface ExceptionInterface
 {
 
 }
