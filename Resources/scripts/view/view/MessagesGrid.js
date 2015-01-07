@@ -1,4 +1,6 @@
-Ext.ns('Phlexible.messages.view');
+Ext.provide('Phlexible.messages.view.MessagesGrid');
+
+Ext.require('Phlexible.messages.model.Message');
 
 Phlexible.messages.view.MessagesGrid = Ext.extend(Ext.grid.GridPanel, {
 //    title: Phlexible.messages.Strings.messages,

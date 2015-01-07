@@ -1,4 +1,8 @@
-Ext.ns('Phlexible.messages.filter');
+Ext.provide('Phlexible.messages.filter.MainPanel');
+
+Ext.require('Phlexible.messages.filter.ListGrid');
+Ext.require('Phlexible.messages.filter.CriteriaForm');
+Ext.require('Phlexible.messages.filter.PreviewPanel');
 
 Phlexible.messages.filter.MainPanel = Ext.extend(Ext.Panel, {
     title: Phlexible.messages.Strings.filters,

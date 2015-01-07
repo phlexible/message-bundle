@@ -1,4 +1,6 @@
-Ext.ns('Phlexible.messages.filter');
+Ext.provide('Phlexible.messages.filter.CriteriaForm');
+
+Ext.require('Phlexible.messages.model.Criterium');
 
 Phlexible.messages.filter.CriteriaForm = Ext.extend(Ext.form.FormPanel, {
     title: Phlexible.messages.Strings.criteria,

@@ -1,4 +1,6 @@
-Ext.ns('Phlexible.messages.subscription');
+Ext.provide('Phlexible.messages.subscription.MainPanel');
+
+Ext.require('Phlexible.messages.model.Subscription');
 
 Phlexible.messages.subscription.MainPanel = Ext.extend(Ext.Panel, {
     title: Phlexible.messages.Strings.subscriptions,

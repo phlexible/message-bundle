@@ -1,4 +1,4 @@
-Ext.ns('Phlexible.messages.filter');
+Ext.provide('Phlexible.messages.filter.ListGrid');
 
 Phlexible.messages.filter.ListGrid = Ext.extend(Ext.grid.GridPanel, {
     title: Phlexible.messages.Strings.filters,

@@ -1,4 +1,6 @@
-Ext.ns('Phlexible.messages.filter');
+Ext.provide('Phlexible.messages.filter.PreviewPanel');
+
+Ext.require('Phlexible.messages.model.Message');
 
 Phlexible.messages.filter.PreviewPanel = Ext.extend(Ext.grid.GridPanel, {
     title: Phlexible.messages.Strings.preview,
